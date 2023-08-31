@@ -1,0 +1,16 @@
+# title
+###### global
+# href
+###### unique
+# src
+###### unique
+# hidden
+###### global
+# charset
+###### unique
+# class
+###### global
+# id
+###### global
+# type
+###### unique
