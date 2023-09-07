@@ -1,0 +1,18 @@
+div{
+    display: inline-block;
+    border: 5px;
+}
+.div1{
+    border: 5px red solid;
+    outline: 5px black solid;
+}
+.div2{
+    /* border-width: 5px; */
+    border-color: blue green blue green;
+    outline: 5px black solid;
+}
+.div3{
+    border-style: dotted;
+    border-color: red green blue yellow;
+    outline: 5px black solid;
+}

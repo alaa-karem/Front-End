@@ -1,0 +1,22 @@
+/* div{
+    background-image: url("../Photoes/1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* background-attachment: fixed; 
+    background-position: left center;
+    background-position: 10% 10%;
+    background-size: cover;
+    /* background-size: contain; 
+} */
+
+div{
+    background-color: aqua;
+    padding: 10px 10px 10px 10px;
+    padding-top: 20px;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    border: 10px green solid;
+    outline: 5px greenyellow solid;
+    border-radius: 10px;
+}

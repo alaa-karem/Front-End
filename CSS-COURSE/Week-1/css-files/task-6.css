@@ -1,0 +1,20 @@
+/* 
+.USERNAME {                       // Bad
+}
+
+
+.UserName {                     // Good
+}
+
+
+.user-name {                    // Good
+}
+
+
+.userName {                    // Good
+}
+
+
+.usernameprofile {            // Bad
+}
+*/
