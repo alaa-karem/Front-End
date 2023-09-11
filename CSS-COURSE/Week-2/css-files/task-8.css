@@ -1,0 +1,18 @@
+.one{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+.two{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:800;
+}
+.three{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Jomhuria', 'cursive';
+    /* font-family: 'Open Sans', sans-serif; */
+    font-weight: 400;
+    font-weight: bolder;
+    letter-spacing: .5px;
+}

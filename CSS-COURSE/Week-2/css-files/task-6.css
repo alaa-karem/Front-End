@@ -1,0 +1,14 @@
+div{
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(33, 148, 148);
+    letter-spacing: 1px;
+    padding: 10px;
+    width: 100px;
+    margin: 100px;
+    border-bottom: 10px solid rgb(13, 94, 94);
+}
+div a{
+    text-decoration: none;
+    color: white;
+}

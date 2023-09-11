@@ -1,0 +1,50 @@
+.one,
+.two,
+.three,
+.four{
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #EEE;
+}
+.one{
+    color: red;
+    border-bottom: 10px red solid;
+}
+.two{
+    color: green;
+    border-bottom: 10px green solid;
+}
+.three{
+    color: blue;
+    border-bottom: 10px blue solid;
+}
+.four{
+    color: black;
+    border-bottom: 10px black solid;
+}
+
+/****************************************************************/
+.alaa{
+    background-color: red;
+    display: inline-block;
+    min-width: 400px;
+    overflow: scroll;
+}
+
+/****************************************************************/
+
+/* div{
+    background-color: #f9f9f9;
+    color: blue;
+    text-shadow: .5px 0 0 green;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-transform: uppercase;
+} */
+
+/****************************************************************/
+.a{
+    background-color: #EEE;
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+}
