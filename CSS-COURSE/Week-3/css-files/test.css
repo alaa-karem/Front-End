@@ -1,0 +1,22 @@
+.parent{
+    /* background-color: red;
+    padding: 10px;
+    overflow: hidden; */
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+.parent div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eee;
+    display: inline-block;
+    width: calc(94%/5);
+    float: left;
+    margin-left: 1%;
+}
+.clear{
+    clear: both;
+}
