@@ -1,0 +1,24 @@
+table thead td{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+}
+table tbody td{
+    padding: 10px;
+    background-color: #eee;
+}
+.span1, .span3, .span5, .span7, .span9, .span11{
+    color: white;
+    background-color: rgb(77, 151, 211);
+    margin: 2px;
+    padding: 2px;
+}
+.span2, .span4, .span6, .span7, .span8, .span10, .span12{
+    color: white;
+    background-color: pink;
+    margin: 2px;
+    padding: 2px;
+}

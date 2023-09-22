@@ -1,0 +1,31 @@
+.main{
+    width: 400px;
+    /* text-align: center; */
+    list-style: none;
+}
+li{
+    list-style-position: outside;
+    background-color: white;
+    padding: 5px;
+    margin: 3px;
+}
+.html{
+    background-color: #eee;
+    position: relative;
+    top: 2px;
+}
+.ol1{
+    list-style-type: decimal("10");
+}
+
+
+.css{
+    background-color: #eee;
+    position: relative;
+    top: 10px;
+}
+.js{
+    background-color: #eee;
+    position: relative;
+    top: 20px;
+}

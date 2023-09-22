@@ -20,3 +20,17 @@ body{
 .clear{
     clear: both;
 }
+
+
+div{
+    color: white;
+    width: 100px;
+    padding: 10px;
+}
+.one{
+    background-color: red;
+    position: static;
+}
+.two{
+    background-color: green;
+}
