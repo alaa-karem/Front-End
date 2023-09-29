@@ -1,0 +1,122 @@
+/* .one{
+    background-color: red;
+}
+.two{
+    background-color: #eee;
+    width: 100px;
+    height: 100px;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+}
+a:visited{
+    color: gray;
+}
+:empty{
+    border: 10px solid red;
+}
+.in{
+    border: 2px black solid;
+}
+.in:focus{
+    border-color: #df8e8e;
+    outline: none;
+}
+.ch:checked + label{
+    color: red;
+}
+.ch:checked{
+    display: none;
+} */
+
+
+
+/* .two::first-letter{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+::selection{
+    background-color: black;
+    color: yellow;
+} */
+
+
+.parent{
+    margin-bottom: 20px;
+    overflow: hidden;
+    counter-increment: members-counter;
+}
+.one{
+    background-color: #eee;
+    padding: 10px;
+    width: 600px;
+    float: left;
+    position: relative;
+}
+.one::before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent green transparent transparent;
+}
+.one::after{
+    content: counter(members-counter);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    right: -10px;
+    top: 50%;
+    background-color: red;
+    color: white;
+    margin-top: -10px;
+}
+
+.user{
+    background-color: #eee;
+    width: 50px;
+    margin-right: 20px;
+    padding: 10px;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+}
+hr{
+    margin: 20px 0;
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    position: relative;
+}
+ul li::before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    margin-top: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent green transparent transparent;
+
+}
+

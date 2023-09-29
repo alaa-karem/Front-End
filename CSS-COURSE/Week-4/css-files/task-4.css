@@ -1,0 +1,26 @@
+p{
+    background-color: #eee;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    counter-increment: task4;
+}
+p::after{
+    content: "";
+    position: absolute;
+    background-color: red;
+    width: 5px;
+    height: 30px;
+    right: 0;
+}
+p::before{
+    content: counter(task4);
+    position: absolute;
+    background-color: red;
+    width: 20px;
+    height: 30px;
+    left: 0;
+    text-align: center;
+    color: white;
+}
