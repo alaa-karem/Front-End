@@ -1,0 +1,94 @@
+.parent{
+    width: 550px;
+    margin: 20px auto;
+}
+.square1{
+    background-color: #eee;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+}
+.square1::after{
+    content: "or";
+    width: 20px;
+    height: 20px;
+    background-color: rgb(77, 209, 241);
+    color: white;
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    left: 101.5px;
+    top: 70px;
+}
+.square1 .p1{
+    width: 70px;
+    height: 20px;
+    background-color: rgb(76, 135, 190);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+}
+.square1 .circle{
+    width: 70px;
+    height: 70px;
+    background-color: #b4aeae;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+    top: 45px;
+}
+.square1 .p2{
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    top: 50px;
+} 
+.square2{
+    background-color: #eee;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    display: inline-block;
+}
+.square1::before{
+    content: "";
+    width: 2px;
+    height: 150px;
+    background-color: rgb(77, 209, 241);
+    position: absolute;
+    left: 110.5px;
+    top: 0px;
+}
+.square2 .pp1{
+    width: 70px;
+    height: 20px;
+    background-color: rgb(76, 135, 190);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    position: absolute;
+    left: 155px;
+}
+.square2 .ccircle{
+    width: 70px;
+    height: 70px;
+    background-color: #b4aeae;
+    border-radius: 50%;
+    position: absolute;
+    left: 155px;
+    top: 80px;
+}
+.square2 .pp2{
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left: 180px;
+    top: 90px;
+} 
