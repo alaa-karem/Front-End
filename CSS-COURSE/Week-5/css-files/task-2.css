@@ -1,0 +1,10 @@
+div{
+    background-color: #eee !important;
+    border: none !important;
+    text-align: center !important;
+    color: #eee !important;
+}
+div::after{
+    content: "Elzero";
+    color: black;
+}
