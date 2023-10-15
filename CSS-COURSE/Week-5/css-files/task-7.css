@@ -1,0 +1,38 @@
+.parent{
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.parent .one{
+    background-color: rgb(46, 160, 175);
+    align-self: flex-end;
+    width: 10%;
+    position: absolute;
+    top: 5px;
+    height: 60px;
+    text-align: center;
+}
+.parent .two{
+    background-color: rgb(46, 160, 175);
+    align-self: center;
+    width: 60%;
+    position: absolute;
+    left: 5px;
+    top: 35%;
+    height: 120px; 
+    text-align: center;
+}
+.parent .three{
+    background-color: rgb(46, 160, 175);
+    align-self: flex-end;
+    width: 10%;
+    position: absolute;
+    bottom: 5px;
+    height: 60px;
+    text-align: center;
+}

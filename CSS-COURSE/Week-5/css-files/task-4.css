@@ -1,0 +1,15 @@
+div{
+    /* box-sizing: content-box; */
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: #eee;
+    color: rgb(235, 114, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% 50% 50% 50%;
+    position: relative;
+    z-index: 20;
+    /* box-shadow: 4 5 2 10px rgb(235, 114, 2) inset; */
+}

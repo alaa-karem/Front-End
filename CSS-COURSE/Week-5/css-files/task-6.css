@@ -1,0 +1,68 @@
+.parent{
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 20px auto;
+    display: flex;
+    flex: row;
+    position: relative;
+}
+.parent .one{
+    position: absolute;
+    background-color: rgb(71, 73, 187);
+    align-self: flex-end;
+    width: 30%;
+    height: 30px;
+    right: 0px;
+    text-align: center;
+    
+}
+.parent .two{
+    position: absolute;
+    background-color: rgb(71, 73, 187);
+    align-self: flex-end;
+    width: 30%;
+    height: 90px;
+    left: 200px;
+    text-align: center;
+}
+.parent .five{
+    position: absolute;
+    background-color: rgb(71, 73, 187);
+    align-self: flex-end;
+    width: 30%;
+    height: 160px;
+    left: 5px;
+    text-align: center;
+    align-items: center;
+}
+.parent .six{
+    position: absolute;
+    background-color: rgb(71, 73, 187);
+    align-self: flex-end;
+    width: 30%;
+    height: 138px;
+    top: 5px;
+    left: 5px;
+    text-align: center;
+}
+.parent .three{
+    position: absolute;
+    background-color: rgb(71, 73, 187);
+    align-self: center;
+    width: 30%;
+    height: 30px;
+    top: 0px;
+    left: 200px;
+    text-align: center;
+}
+.parent .four{
+    position: absolute;
+    background-color: rgb(71, 73, 187);
+    align-self: flex-end;
+    width: 30%;
+    height: 138px;
+    top: 5px;
+    right: 5px;
+    text-align: center;
+}
