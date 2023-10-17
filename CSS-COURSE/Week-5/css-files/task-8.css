@@ -1,0 +1,39 @@
+.parent{background-color: #eee;
+width: 600px;
+height: 300px;
+margin: 20px auto;
+display: flex;
+flex-direction: row-reverse;
+align-content: space-between;
+position: relative;
+}
+.parent div{
+    width: 70px;
+    height: 100px;
+    background-color: orange;
+    text-align: center;
+    
+}
+.parent .four{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: blue;
+}
+.parent .two{
+    position: absolute;
+    bottom: 0px;
+    left: 250px;
+    background-color: green;
+}
+.parent .three{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: brown;
+}
+.parent .one{
+    position: absolute;
+    top: 0px;
+    left: 250px;
+}
