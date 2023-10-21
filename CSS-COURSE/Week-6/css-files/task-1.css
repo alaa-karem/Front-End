@@ -1,0 +1,27 @@
+div{
+    width: 600px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #eee;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+div:before{
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(to right, red 20%, blue 20%, blue 40%, green 40%, green 60%, pink 60%, pink 80%, purple 80%);
+    left: 0;
+    top: -10px;
+    width: 100%;
+    height: 10px;
+}
+div::after{
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(to right, red 20%, blue 20%, blue 40%, green 40%, green 60%, pink 60%, pink 80%, purple 80%);
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 10px;
+}

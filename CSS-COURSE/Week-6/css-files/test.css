@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+/* img{
+    transition: .3s;
+    filter: grayscale(100%);
+    filter: blur(4px);
+    filter: invert(100%);
+}
+img:hover{
+    filter: grayscale(0);
+    filter: blur(0);
+    filter: invert(0);
+} */
+
+/* 
+    linear-gradient(Direction or Angle, Color Stop 1, Color Stop 2, Color Stop 3,....)
+                        80deg
+
+div{
+    background-image: linear-gradient(to right, red, pink);
+    width: 800px;
+    height: 300px;
+}
+*/
+
+
+p{
+    caret-color: red;
+}
+a{
+    pointer-events: none;
+}
