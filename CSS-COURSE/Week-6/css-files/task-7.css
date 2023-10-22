@@ -1,0 +1,36 @@
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 10% 1fr 10%;
+    gap: 10px 10px;
+    grid-template-areas: "a a a a a b b b b b" "g g g g g g g g g g" "c c c c c d d d d d";
+}
+.one{
+    grid-area: a;
+    background-color: pink;
+    text-align: center;
+    color: white;
+}
+.two{
+    grid-area: b;
+    background-color: pink;
+    text-align: center;
+    color: white;
+}
+.three{
+    grid-area: c;
+    background-color: pink;
+    text-align: center;
+    color: white;
+}
+.four{
+    grid-area: d;
+    background-color: pink;
+    text-align: center;
+    color: white;
+}

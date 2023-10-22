@@ -1,0 +1,62 @@
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(10,auto);
+    grid-template-rows: repeat(6,auto);
+    justify-content: space-between;
+    gap: 10px 10px;
+    grid-template-areas: "a1 a1 a1 a1 a1 a1 a1 a1 a1 a1" "b1 b1 b1 b1 b1 b1 b1 b2 b2 b2" "c1 c1 c1 c2 c2 c2 c2 c2 c2 c2" "d1 d1 d1 c2 c2 c2 c2 c2 c2 c2" "e1 e1 e1 c2 c2 c2 c2 c2 c2 c2" "f f f f f f f f f f";
+
+}
+.one{
+    grid-area: f;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.two{
+    grid-area: b1;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.three{
+    grid-area: b2;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.four{
+    grid-area: c1;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.five{
+    grid-area: c2;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.six{
+    grid-area: d1;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.seven{
+    grid-area: e1;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.eight{
+    grid-area: a1;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}

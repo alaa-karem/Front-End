@@ -1,0 +1,49 @@
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 10% auto;
+    grid-template-areas: "el1 el2 el3 " "el4 el5 el6";
+    gap: 40px 10px;
+}
+.a{
+    grid-area: el1;
+    background-color: rgb(91, 79, 134);
+    color: white;
+    text-align: center;
+}
+.b{
+    grid-area: el2;
+    background-color: rgb(91, 79, 134);
+    color: white;
+    text-align: center;
+}
+.c{
+    grid-area: el3;
+    background-color: rgb(91, 79, 134);
+    color: white;
+    text-align: center;
+}
+.d{
+    grid-area: el4;
+    background-color: rgb(91, 79, 134);
+    color: white;
+    text-align: center;
+}
+.e{
+    grid-area: el5;
+    background-color: rgb(91, 79, 134);
+    color: white;
+    text-align: center;
+}
+.f{
+    grid-area: el6;
+    background-color: rgb(91, 79, 134);
+    color: white;
+    text-align: center;
+}
