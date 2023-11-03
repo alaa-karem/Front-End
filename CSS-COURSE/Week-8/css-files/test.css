@@ -1,0 +1,179 @@
+/* .parent{
+    position: relative;
+    width: 100px;
+    height: 100px;
+
+}
+.parent .inner{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: red;
+    margin-left: -50px;
+    margin-top: -50px;
+    border-radius: 50%;
+    border: 5px solid pink; 
+    border-left-color: transparent;
+    animation-name: change-color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    animation-play-state: running;
+}
+.parent .inner:hover{
+    animation-play-state: paused;
+}
+@keyframes change-color {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} */
+
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+}
+.load{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+.load div{
+    width: 20px;
+    height: 20px;
+    background-color: orchid;
+    border-radius: 50%;
+    margin: 0 5px;
+    animation-name: up-and-down;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.load .two{
+    animation-delay: .3s;
+}
+.load .three{
+    animation-delay: .6s;
+}
+@keyframes up-and-down{
+    to{
+        opacity: 0.2;
+        transform: translateY(-20px);
+    }
+} */
+
+/*
+CSS Selectors
+- *
+- Element => [p, div, h2]
+- Element OtherElement => div p
+- .class-name
+- #id-name
+- .parent .child
+- .class-one.class-two
+- .class-name div, .class-name p
+- Element.class-name => p.class-name
+- .parent > .child => Direct Child
+
+- Element + Other Element => [div + p]
+- Element ~ Other Elements => [p ~ div]
+- [Attribute]
+- Element[Attribute]
+- [Attribute=Value]
+- Element[Attribute=Value] => input[type="submit"]
+- [Attribute~=Value] => Contains A Word
+- [Attribute*=Value] => Contains A Atring
+- [Attribute^=Value] => Start With A String
+
+- :first-child
+- :last-child
+- :first-of-type
+- :last-of-type
+- :only-child
+
+- :not(Selectors)
+- :nth-child(n)
+- :nth-last-child(n)
+- :nth-of-type(n)
+- :nth-last-of-type(n)
+
+- :root
+- :checked
+- :empty
+- :disabled
+- :required
+- :focus
+- ::selection
+- ::placeholder
+*/
+
+
+/* .parent{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+.parent > div{
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 290px;
+} */
+
+/* @media print{
+    .parent > div{
+        font-size: 100px;
+    }
+} */
+
+
+/* @media (max-width:1000px){
+    .parent > div{
+        background-color: pink;
+    }
+} */
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.parent div{
+    padding: 20px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+/* mobile */
+@media (max-width: 767px){
+
+}
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px){
+    .parent div{
+        width: calc(50% - 10px);
+    }
+}
+/* Medium Screens */
+@media (min-width: 992px){
+    
+}
+/* Large Screens */
+@media (min-width: 1200px){
+    
+}
