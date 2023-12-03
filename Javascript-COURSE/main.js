@@ -275,3 +275,98 @@ console.log(`Data is: ${day}  / ${month} / ${year}`);
 
 */
 //////////////////////////////////////////////////////////////////////////////////////
+
+/* From Lesson 55 to  :
+*/
+
+// Events:
+
+// function hello(){
+//     console.log('Hello');
+// }
+
+
+/* 
+let btn = document.getElementById('btn');
+
+// btn.addEventListener('click', function(){
+//     console.log('clicked');
+// });
+
+btn.onmouseup = function(){
+    console.log('hello');
+};
+btn.onmouseover = function(){
+    console.log('hello');
+};
+btn.onmouseout = function(){
+    console.log('hello');
+};
+
+let inp = document.getElementById('inp');
+
+let i=1;
+inp.onkeyup = function(){
+    console.log('click' + i++);
+};
+
+inp.onkeydown = function(){
+    console.log('click' + i++);
+};
+
+inp.onfocus = function(){
+    inp.style.border = '2px solid red';
+}
+inp.onblur = function(){
+    inp.style.border = 'none';
+}
+*/
+/*  Before and After:
+let after = document.getElementById('after');
+let before = document.getElementById('before');
+let append = document.getElementById('append');
+let content = document.getElementById('content');
+let container = document.getElementById('container');
+
+container.style.backgroundColor = '#ffa';
+container.style.height = '50px';
+
+after.onclick = function(){
+    container.after(content)
+}
+before.onclick = function(){
+    container.before(content)
+}
+append.onclick = function(){
+    container.appendChild(content)
+}
+*/
+
+/* Remove and Toggle Classes: 
+let hello = document.getElementById('hello')
+
+hello.onclick=function(){
+    hello.classList.add('name');
+}
+
+hello.oncontextmenu=function(){
+    hello.classList.remove('name');
+}
+
+hello.oncontextmenu=function(){
+    hello.classList.toggle('name');
+}
+*/
+// Auto Event:
+let txt = document.getElementById('txt');
+let myBtn = document.getElementById('btn')
+    // Auto Focus:
+window.onload = function(){
+    //txt.focus();
+    //myBtn.click();
+    txt.value = 'test';
+}
+
+myBtn.onclick = function(){
+    myBtn.style.background = '#ffa';
+}
