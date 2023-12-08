@@ -276,8 +276,8 @@ console.log(`Data is: ${day}  / ${month} / ${year}`);
 */
 //////////////////////////////////////////////////////////////////////////////////////
 
-/* From Lesson 55 to  :
-*/
+/* From Lesson 55 to 62 :
+
 
 // Events:
 
@@ -357,6 +357,7 @@ hello.oncontextmenu=function(){
     hello.classList.toggle('name');
 }
 */
+/* 
 // Auto Event:
 let txt = document.getElementById('txt');
 let myBtn = document.getElementById('btn')
@@ -370,3 +371,102 @@ window.onload = function(){
 myBtn.onclick = function(){
     myBtn.style.background = '#ffa';
 }
+*/
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+/* From Lesson 62 to 68 :
+
+
+// BOM -> Browser Object MOdel: how js calls browser.
+
+    // Scroll:
+     //window.scroll(200,400);         // Turn from left to right and from top to bottom
+    //window.scrollBy(200,400);      // Turn from Your Place -> from left to right and from top to bottom  
+    // scrollX and scrollY -> return your place (now)
+
+    let btn = document.getElementById('btn');
+
+    window.onscroll = function(){
+        if(scrollY >=400)
+        {
+            btn.style.display = 'block';
+        }
+        else
+        {
+            btn.style.display = 'none';
+        }
+    }
+
+    btn.onclick = function(){
+        scroll({
+            left: 0,
+            top: 0,
+            behavior: "smooth",
+
+        })
+    }
+
+console.log(screen.width);
+console.log(screen.height);
+
+console.log(screen.availWidth);
+console.log(screen.availHeight);
+
+// http://www.linkedin.com/in/alaa-karem-602860223   ==> href
+// http://  ==> Protocol
+// www.linkedin.com  ==> Host Name
+// /in/alaa-karem-602860223  ==> Path Name
+
+
+console.log(location)
+// history.back()
+// location.reload()
+
+// location.assign('http://www.linkedin.com/in/alaa-karem-602860223')   ==> Can back to previous page
+// location.replace('http://www.linkedin.com/in/alaa-karem-602860223')  ==> Can't back to previous page
+
+
+    // SetTimeOut & setInterval
+// let hello =    setTimeout(function(){           // make function starts after some few seconds just once
+//     console.log('hello');
+// }, 3000);
+
+// clearTimeout(hello);   // To end hello function
+
+// let i=1;
+// let hello2 =    setInterval(function(){           // make function starts after some few seconds and loop it
+//     console.log(i++);
+//     if(i==5) clearInterval(hello2);
+// }, 1000);
+
+
+    // localStorage & sessionStorage
+//in localStorage, we can add items, read items and delete
+    //add:
+window.localStorage.setItem('name', 'alaa');
+window.localStorage.x = 'ali';
+    //read:
+console.log(localStorage.getItem('name'));
+console.log(localStorage.x);
+// But it's understands any datatype except (string) So,
+// You could write JSON.stringify(value);
+
+localStorage.setItem('age', JSON.stringify(21));
+console.log(localStorage.getItem('age'));
+
+localStorage.user = JSON.stringify({
+    name:'alaakarem',
+    age: 21,
+})
+console.log(JSON.parse(localStorage.getItem('user')));
+console.log(localStorage.key(2));
+
+    //delete:
+localStorage.removeItem('age');
+
+localStorage.clear();     // delete all
+
+*/
+
+// CRUDS  ==> Create , Read , Update , Delete , Search
